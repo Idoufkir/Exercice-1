@@ -1,0 +1,29 @@
+{
+  "name": "exercice1",
+  "version": "0.0.1",
+  "description": "Exercice-1 L'objet de cet exercice est de créer un CRUD pour le modèle suivant : {",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Idoufkir/Exercice-1.git"
+  },
+  "author": "Mustafa IDOUFKIR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Idoufkir/Exercice-1/issues"
+  },
+  "homepage": "https://github.com/Idoufkir/Exercice-1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
