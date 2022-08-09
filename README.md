@@ -38,11 +38,11 @@ Pour la creation et la mise à jour vous devez respecter le modèle pré établi
 Pour le volé sécurité il faut prévoir un mécanisme de clé apiKey pour sécurisé la communication. L'apiKey doit être fourni pour chaque appel sur le HTTP headers du paquet.
 
 ```
-
 {
-  "headers": { "Authorization": "apikey AHES6ZRVmB7fkLtd1" }
+  "headers": {
+      "Authorization": "apikey AHES6ZRVmB7fkLtd1"
+      }
 }
-
 
 ```
 
