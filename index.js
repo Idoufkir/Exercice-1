@@ -7,12 +7,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 
 
-
-
-
-// const product = require('./model/product.model')
 const productRouter = require('./routes/product');
-// const { request } = require('express');
 
 app.use(express.json())
 app.use(cors());
@@ -29,9 +24,6 @@ app.use(bodyParser.urlencoded({
     useUnifiedTopology: true
 }));
 
-
-// const headers = request.headers;
-// console.log('Headers :::: ', headers);
 
 const port = process.env.PORT || 3000;
 

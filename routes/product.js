@@ -8,6 +8,14 @@ router.get('/', (req, res) => {
     products.getProducts(req, res);
 });
 
+router.post('/', authHeader(api_key), (req, res) => {
+    products.postProduct(req, res);
+});
+
+router.delete('/:product_id', authHeader(api_key), (req, res) => {
+    products.deleteProduct(req, res);
+});
+
 // router.post('/', authHeader(api_key), (req, res) => {
 //     products.getProducts(req, res);
 // });

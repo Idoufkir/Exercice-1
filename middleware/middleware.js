@@ -1,6 +1,6 @@
 module.exports = (api_key) =>
     (req, res, next) => {
-        const authHeader = req.get('apikey');
+        const authHeader = req.get('Authorization');
         if (authHeader === api_key) {
             next();
         } else {
